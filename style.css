@@ -1,0 +1,43 @@
+#maintitle {
+    color: blue;
+    text-align: center;
+}
+
+.news-item{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    width: 900px;
+    height: 600;
+    
+}
+
+.news-item:hover{
+    background-color: aqua;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+body{
+    display: grid;
+    place-items: center;
+    
+}
+
+.user-table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+mark{
+    color:rgb(192, 143, 8);
+    background-color: white;
+    
+}
+
